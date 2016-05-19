@@ -1,0 +1,8 @@
+# Mongo db properties for connectivity
+mongodb:
+    no_of_connections: 10
+    url: localhost
+    port: 27017
+    name: test
+    userid:
+    passoword:
