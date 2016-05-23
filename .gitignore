@@ -4,3 +4,5 @@
 .metadata/
 .recommenders/
 build/
+.classpath
+bin/

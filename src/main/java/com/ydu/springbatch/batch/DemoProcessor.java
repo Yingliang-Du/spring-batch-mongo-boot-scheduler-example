@@ -1,4 +1,4 @@
-package com.ydu.springbatch.mongo;
+package com.ydu.springbatch.batch;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -6,8 +6,8 @@ import org.springframework.batch.item.ItemProcessor;
 
 import com.mongodb.BasicDBObject;
 
-public class BookProcessor implements ItemProcessor<BasicDBObject, BasicDBObject> {
-	private static Logger log = LoggerFactory.getLogger(BookProcessor.class);
+public class DemoProcessor implements ItemProcessor<BasicDBObject, BasicDBObject> {
+	private static Logger log = LoggerFactory.getLogger(DemoProcessor.class);
 
 	@Override
 	public BasicDBObject process(BasicDBObject item) throws Exception {
